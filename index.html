@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sai</title>
+
+    <link rel="icon" type="image/png" href="iconic.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!--
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+
+        .header .logo {
+            font-size: 1.5rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s;
+        }
+
+        .navbar a:hover, .navbar a.active {
+            background-color: #555;
+        }
+
+        .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .home-content {
+            max-width: 800px;
+        }
+
+        .home-sci a {
+            margin: 0 0.5rem;
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        .home-img {
+            margin-top: 2rem;
+        }
+
+        .home-img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        @media (min-width: 768px) {
+            .home {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+
+            .home-content {
+                max-width: 50%;
+            }
+
+            .home-img {
+                max-width: 40%;
+            }
+        }
+    </style>
+-->
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+                                                        <!-- Matrix -->
+    <script src="/JAVASCRIPT/matrix.js"></script>
+
+    <header class="header">
+        <a href="#" class="logo">{Bijaya Kumal} </a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skill" style="--i:3;">Skills</a>
+            <a href="#project" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content" data-scroll data-scroll-speed="-5">
+            <h3 class="mu">Hello, It's me</h3>
+            <h1>Iconic Whisper</h1>
+            <h3>And I'm a <span class="pro-text">
+                <script>
+                   var typed = new Typed(".pro-text", {
+                      strings: [
+                        "Ethical Hacker",
+                        "Gamer",
+                        "Programmer",
+                        "Linux Administrator",
+                        "Video Editor",
+                        "Reverse Engineer"
+                      ],
+                      typeSpeed: 100,   
+                      backSpeed: 100,   
+                      backDelay: 1000,  
+                      loop: true        
+                    });
+                </script>
+            </span></h3>
+            
+            <p>This portfolio highlights my passion for cybersecurity and my commitment to ethical practices.</p>
+            
+            <p>  &emsp; &emsp;This portfolio highlights my passion for cybersecurity and my commitment to ethical practices. <br> <br>
+                &emsp; &emsp;I have acquired fundamental knowledge and skills in various areas of ethical hacking, 
+                allowing me to contribute to the security of organizations and individuals. <br> <br>
+                &emsp; &emsp;Hacked multiple Wifi network that were based on WPS protocol.  
+            </p>
+
+            <div class="home-sci">
+                <a href="https://github.com/12bijaya" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/bijaya-kumal/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="tel:9745671633" target="_blank"><i class='bx bxs-phone'></i></a>
+                <a href="https://www.instagram.com/1_iconic_whisper_.z/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/9745671633" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="tel:9745671633" target="_blank"><i class='bx bxs-phone'></i></a>
+            </div>
+           <a href="" class="btn-box" download="#">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="iconic.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body> 
+</html>
